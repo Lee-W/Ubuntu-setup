@@ -19,9 +19,9 @@ sudo apt-get update
 sudo apt-get install menulibre
 
 #nitro
-# sudo add-apt-repository ppa:cooperjona/nitrotasks -y
-# sudo apt-get update
-# sudo apt-get install nitrotasks -y
+sudo add-apt-repository ppa:cooperjona/nitrotasks -y
+sudo apt-get update
+sudo apt-get install nitrotasks -y
 
 #everpad
 sudo add-apt-repository ppa:nvbn-rm/ppa -y
