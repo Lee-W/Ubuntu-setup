@@ -2,6 +2,19 @@
 #DESCRIPTION
 Some simple shell script for installing useful applications in single command
 
+
+#USAGE
+intstall separately
+> sudo sh "filename.sh"
+
+or install all
+
+> sudo sh install-all.sh
+
+you can also edit install-all.sh or other shell script to customize  
+
+
+#More detail
 ###basic_setup.sh
 What will be installed
 - vim
@@ -68,15 +81,6 @@ What will be installed
 ###install-all.sh
 the shell script that will execute all the shell script combine with some basic update and clean up
 
-#USAGE
-intstall separately
-> sudo sh "filename.sh"
-
-or install all
-
-> sudo sh install-all.sh
-
-you can also edit install-all.sh or other shell script to customize  
 
 #AUTHORS
 [Lee-W](https://github.com/Lee-W/)
