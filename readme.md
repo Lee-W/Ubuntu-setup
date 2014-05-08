@@ -1,6 +1,7 @@
 #Ubunut-setup
 #DESCRIPTION
-Some simple shell script for installing useful applications in single command
+Some simple shell script for installing useful applications in single command.  
+Note that you may need some manual set up for some applications.
 
 
 #USAGE
