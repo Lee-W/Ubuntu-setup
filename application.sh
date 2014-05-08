@@ -5,7 +5,7 @@ sudo apt-get install amarok -y
 sudo apt-get install audacity -y
 
 #graph
-sudo apt-get install gimp-data gimp-plugin-registry gimp-data-extras-y
+sudo apt-get install gimp-data gimp-plugin-registry gimp-data-extras -y
 sudo apt-get install dia -y
 sudo apt-get install planner -y
 
@@ -18,9 +18,9 @@ sudo apt-get install okular -y
 
 
 #menulibre
-sudo add-apt-repository ppa:menulibre-dev/devel
+sudo add-apt-repository ppa:menulibre-dev/devel -t
 sudo apt-get update
-sudo apt-get install menulibre
+sudo apt-get install menulibre -t
 
 #nitro
 sudo add-apt-repository ppa:cooperjona/nitrotasks -y
@@ -38,9 +38,9 @@ sudo apt-get update
 sudo apt-get install caffeine -y
 
 #PCMANX
-sudo apt-get install pcmanx-gtk2
+sudo apt-get install pcmanx-gtk2 -y
 
 #skype
 sudo sh -c 'echo "deb http://archive.canonical.com/ quantal partner" >> /etc/apt/sources.list'
 sudo apt-get update
-sudo apt-get install skype
+sudo apt-get install skype -y
