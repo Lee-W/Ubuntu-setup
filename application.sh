@@ -18,9 +18,9 @@ sudo apt-get install okular -y
 
 
 #menulibre
-sudo add-apt-repository ppa:menulibre-dev/devel -t
+sudo add-apt-repository ppa:menulibre-dev/devel -y
 sudo apt-get update
-sudo apt-get install menulibre -t
+sudo apt-get install menulibre -y
 
 #nitro
 sudo add-apt-repository ppa:cooperjona/nitrotasks -y
