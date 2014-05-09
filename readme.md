@@ -53,24 +53,35 @@ What will be installed
 - easytag : modify tags for music
 - amarok : music player
 - audacity : audio editor
+
 ####graph
 - gimp : Graphics application
 - dia
 - planner
+
 ####note
 - tomboy : memo
 - nitro : to do list
 - everpad : evernote plug-in in linux
+
 ####system
 - bleachbit : like CClear in Windos
 - menulibre : manage application in dash
 - caffine : temporaily prevent the computer from "sleeping"
 - compiz : desktop effects manager
+
 ####other
+- chromium
+- PCMANX
 - filezilla : FTP
 - okular : document viewer
-- PCMANX
-- skype
+- skype  
+  
+There is also some great applications but not able to install through apt-get directly.  
+- [Oracle Virtual box] ( https://www.virtualbox.org/wiki/Linux_Downloads )
+- [genymotion] ( http://www.genymotion.com/ )
+- [Xmind] ( http://www.xmind.net/download/linux/ )
+- [Rainlendar] ( http://www.rainlendar.net/cms/index.php?option=com_rny_download&Itemid=30 )
 
 ###oh-my-zsh-install.sh
 install zsh and oh-my-zsh
