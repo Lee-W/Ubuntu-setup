@@ -99,8 +99,10 @@ http://note.drx.tw/2013/10/working-on-gnu-linux-15-sdcv.html
 ###developer.sh
 What will be installed
 - Andorid develope enviorment (adt aapt)
+- Andorid studio
 - Python package control (pip for both python 2 and python 3)
 - sublime-text
+- atom (beta)
 
 ###install-all.sh
 execute all the shell script combine with some basic update and clean up
