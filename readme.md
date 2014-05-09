@@ -1,7 +1,8 @@
-#Ubunut-setup
+#Ubuntu-setup
 #DESCRIPTION
-Some simple shell script for installing useful applications in single command.  
-Note that you may need some manual set up for some applications.
+Shell script for installing useful applications in a single command.  
+This is tested in Ubunutu 14.04. There might be some applications that are not compatible with older version.  
+Also note that you may need some manual set up for some applications.
 
 
 #USAGE
@@ -21,21 +22,25 @@ What will be installed
 - vim
 - git
 - g++
-- unrar
+- java
+
+- terminator
+- guake
 - zsh
 - autojump
 - tmux
 - nautilus-open-terminal
-- gpart
-- gcin
-- terminator
-- guake
+
 - synaptic
 - y-ppa-manager
 - advance power manangement
-- java
-- flash
 - media restriction
+- unrar
+
+- flash
+- tweak
+- gcin
+- gpart
 
 
 ###ppa-setting.sh
@@ -43,21 +48,27 @@ set some useful ppa. (e.g. java, gimp, etc.)
 
 ###application.sh
 What will be installed
-- smplayer
-- easytag
-- amarok
-- audacity
+####media
+- smplayer : video player
+- easytag : modify tags for music
+- amarok : music player
+- audacity : audio editor
+####graph
+- gimp : Graphics application
 - dia
-- gimp
 - planner
-- bleachbit
-- filezilla
-- tomboy
-- okular
-- menulibre
-- nitro
-- everpad
-- caffine
+####note
+- tomboy : memo
+- nitro : to do list
+- everpad : evernote plug-in in linux
+####system
+- bleachbit : like CClear in Windos
+- menulibre : manage application in dash
+- caffine : temporaily prevent the computer from "sleeping"
+- compiz : desktop effects manager
+####other
+- filezilla : FTP
+- okular : document viewer
 - PCMANX
 - skype
 
@@ -78,9 +89,10 @@ http://note.drx.tw/2013/10/working-on-gnu-linux-15-sdcv.html
 What will be installed
 - Andorid develope enviorment (adt aapt)
 - Python package control (pip for both python 2 and python 3)
+- sublime-text
 
 ###install-all.sh
-the shell script that will execute all the shell script combine with some basic update and clean up
+execute all the shell script combine with some basic update and clean up
 
 
 #AUTHORS
