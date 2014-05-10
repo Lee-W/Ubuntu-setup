@@ -67,8 +67,12 @@ What will be installed
 ####system
 - bleachbit : like CClear in Windos
 - menulibre : manage application in dash
-- caffine : temporaily prevent the computer from "sleeping"
 - compiz : desktop effects manager
+
+####indicator
+- classic menu indicator
+- indicator-stickynote
+- caffine : temporaily prevent the computer from "sleeping"
 
 ####other
 - chromium
@@ -78,6 +82,7 @@ What will be installed
 - skype  
   
 There is also some great applications but not able to install through apt-get directly.  
+- [Dropbox] ( https://www.dropbox.com/install?os=lnx )
 - [Oracle Virtual box] ( https://www.virtualbox.org/wiki/Linux_Downloads )
 - [genymotion] ( http://www.genymotion.com/ )
 - [Xmind] ( http://www.xmind.net/download/linux/ )

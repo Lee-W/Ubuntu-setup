@@ -46,3 +46,13 @@ sudo apt-get install pcmanx-gtk2 -y
 sudo sh -c 'echo "deb http://archive.canonical.com/ quantal partner" >> /etc/apt/sources.list'
 sudo apt-get update
 sudo apt-get install skype -y
+
+#classic menu indicator
+sudo add-apt-repository ppa:diesch/testing -y
+sudo apt-get update
+sudo apt-get install classicmenu-indicator -y
+
+#indicator-stickynotes
+sudo add-apt-repository ppa:umang/indicator-stickynotes
+sudo apt-get update
+sudo apt-get install indicator-stickynotes
