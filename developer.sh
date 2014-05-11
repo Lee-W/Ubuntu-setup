@@ -3,7 +3,7 @@ sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 -y
 sudo apt-get install libc6-i386 lib32stdc++6 lib32gcc1 lib32ncurses5 -y
 
 #android studio
-sudo add-apt-repository ppa:paolorotolo/android-studio -t
+sudo add-apt-repository ppa:paolorotolo/android-studio -y
 sudo apt-get update
 sudo apt-get install android-studio -y
 
@@ -17,6 +17,6 @@ sudo apt-get install python3-pip -y
 sudo apt-get install sublime-text -y
 
 #atom (beta)
-sudo add-apt-repository ppa:webupd8team/atom
+sudo add-apt-repository ppa:webupd8team/atom -y
 sudo apt-get update
-sudo apt-get install atom
+sudo apt-get install atom -y
