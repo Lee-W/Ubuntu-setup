@@ -53,6 +53,6 @@ sudo apt-get update
 sudo apt-get install classicmenu-indicator -y
 
 #indicator-stickynotes
-sudo add-apt-repository ppa:umang/indicator-stickynotes
+sudo add-apt-repository ppa:umang/indicator-stickynotes -y
 sudo apt-get update
-sudo apt-get install indicator-stickynotes
+sudo apt-get install indicator-stickynotes -y
