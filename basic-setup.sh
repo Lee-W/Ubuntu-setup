@@ -9,7 +9,6 @@ sudo apt-get install icedtea-7-plugin openjdk-7-jre oracle-java8-installer -y
 sudo apt-get install terminator -y
 sudo apt-get install guake -y
 sudo apt-get install zsh -y
-sudo apt-get install autojump -y
 sudo apt-get install tmux -y
 sudo apt-get install nautilus-open-terminal  -y
 
@@ -20,10 +19,13 @@ sudo apt-get install synaptic -y
 sudo apt-get install y-ppa-manager -y
 
 #advance power manangement
-sudo add-apt-repository ppa:linrunner/tlp
+sudo add-apt-repository ppa:linrunner/tlp -y
 sudo apt-get update
 sudo apt-get install tlp tlp-rdw -y
 sudo tlp start
+
+#prvent overheat
+sudo apt-get install thermald -y
 
 #media restriction
 sudo apt-get install libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libswscale-extra-2 ubuntu-restricted-extras -y
