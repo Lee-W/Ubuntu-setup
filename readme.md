@@ -40,7 +40,6 @@ What will be installed
 - flash
 - tweak
 - gcin
-- gpart
 
 
 ###ppa-setting.sh
@@ -67,7 +66,6 @@ What will be installed
 ####system
 - bleachbit : like CClear in Windos
 - menulibre : manage application in dash
-- compiz : desktop effects manager
 
 ####indicator
 - classic menu indicator
@@ -75,12 +73,16 @@ What will be installed
 - caffine : temporaily prevent the computer from "sleeping"
 
 ####other
-- chromium
 - PCMANX
 - filezilla : FTP
 - okular : document viewer
 - skype  
-  
+
+Some software that could be installed through software center easier
+- chromium
+- compiz : desktop effects manager
+- gpart
+
 There is also some great applications but not able to install through apt-get directly.  
 - [Dropbox] ( https://www.dropbox.com/install?os=lnx )
 - [Oracle Virtual box] ( https://www.virtualbox.org/wiki/Linux_Downloads )
@@ -90,6 +92,9 @@ There is also some great applications but not able to install through apt-get di
 
 ###oh-my-zsh-install.sh
 install zsh and oh-my-zsh
+
+###autojump.sh
+install autojump
 
 ###macbuntu14-04.sh
 install necessary package for macbuntu  

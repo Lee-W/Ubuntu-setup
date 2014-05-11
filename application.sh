@@ -10,13 +10,10 @@ sudo apt-get install dia -y
 sudo apt-get install planner -y
 
 #other
-sudo apt-get install gpart -y
 sudo apt-get install bleachbit -y
 sudo apt-get install filezilla -y
 sudo apt-get install tomboy -y
 sudo apt-get install okular -y
-sudo apt-get install compiz -y
-sudo apt-get install chromium-browser -y
 
 
 #menulibre
