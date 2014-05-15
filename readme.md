@@ -1,6 +1,6 @@
 #Ubuntu-setup
 #DESCRIPTION
-Shell script for installing useful applications in a single command.  
+Shell scripts for installing applications or fixing some bugs in a single command.  
 This is tested in Ubunutu 14.04. There might be some applications that are not compatible with older version.  
 Also note that you may need some manual set up for some applications.
 
@@ -113,6 +113,9 @@ What will be installed
 - Python package control (pip for both python 2 and python 3)
 - sublime-text
 - atom (beta)
+
+#fix-blightness-problem.sh
+fix the blightness problem
 
 ###install-all.sh
 execute all the shell script combine with some basic update and clean up
