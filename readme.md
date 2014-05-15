@@ -60,7 +60,6 @@ What will be installed
 
 ####note
 - tomboy : memo
-- nitro : to do list
 - everpad : evernote plug-in in linux
 
 ####system
