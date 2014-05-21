@@ -48,3 +48,8 @@ sudo apt-get install classicmenu-indicator -y
 sudo add-apt-repository ppa:umang/indicator-stickynotes -y
 sudo apt-get update
 sudo apt-get install indicator-stickynotes -y
+
+#Spotify
+sudo sh -c 'echo "deb http://repository.spotify.com stable non-free" > /etc/apt/sources.list.d/spotify.list'
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
+sudo apt-get update && sudo apt-get install spotify-client-qt

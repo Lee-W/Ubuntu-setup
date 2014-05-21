@@ -52,6 +52,7 @@ What will be installed
 - easytag : modify tags for music
 - amarok : music player
 - audacity : audio editor
+- Spotify
 
 ####graph
 - gimp : Graphics application
