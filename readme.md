@@ -111,6 +111,7 @@ What will be installed
 - Andorid develope enviorment (adt aapt)
 - Andorid studio
 - Python package control (pip for both python 2 and python 3)
+- ant : like make for java
 - sublime-text
 - atom (beta)
 

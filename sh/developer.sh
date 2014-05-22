@@ -13,6 +13,9 @@ sudo apt-get install python-pip -y
 ##for python 3.x
 sudo apt-get install python3-pip -y
 
+#ant
+sudo apt-get install ant -y
+
 #sublime 3
 sudo apt-get install sublime-text -y
 
