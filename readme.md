@@ -117,6 +117,9 @@ What will be installed
 - atom (beta)
 - tig
 
+lib
+- C++ qt
+
 #fix-blightness-problem.sh
 fix the blightness problem
 

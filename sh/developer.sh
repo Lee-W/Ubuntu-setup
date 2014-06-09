@@ -16,6 +16,10 @@ sudo apt-get install python3-pip -y
 #ant
 sudo apt-get install ant -y
 
+#tig
+sudo apt-get install tig -y
+
+#--------editor---------
 #sublime 3
 sudo apt-get install sublime-text -y
 
@@ -24,5 +28,6 @@ sudo add-apt-repository ppa:webupd8team/atom -y
 sudo apt-get update -y
 sudo apt-get install atom -y
 
-#tig
-sudo apt-get install tig -y
+#----------lib-----------
+##C++ qt4
+sudo apt-get install qt4-dev-tools qt4-doc qt4-qtconfig qt4-demos qt4-designer
