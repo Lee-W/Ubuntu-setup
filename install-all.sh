@@ -10,6 +10,8 @@ executeSh() {
 shellList=(basic_setup oh-my-zsh-install application developer macbuntu14-04 fix-blightness)
 
 
+mkdir -r log
+
 executeSh ppa-setting.sh
 
 echo "--------update start--------"
