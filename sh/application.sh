@@ -6,6 +6,7 @@ sudo apt-get install audacity -y
 
 #graph
 sudo apt-get install gimp-data gimp-plugin-registry gimp-data-extras -y
+sudo apt-get install kolourpaint4 -y
 sudo apt-get install dia -y
 sudo apt-get install planner -y
 

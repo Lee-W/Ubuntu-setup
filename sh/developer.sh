@@ -4,7 +4,7 @@ sudo apt-get install libc6-i386 lib32stdc++6 lib32gcc1 lib32ncurses5 -y
 
 #android studio
 sudo add-apt-repository ppa:paolorotolo/android-studio -y
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install android-studio -y
 
 #python pip
@@ -21,5 +21,8 @@ sudo apt-get install sublime-text -y
 
 #atom (beta)
 sudo add-apt-repository ppa:webupd8team/atom -y
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install atom -y
+
+#tig
+sudo apt-get install tig -y

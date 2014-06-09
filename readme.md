@@ -56,6 +56,7 @@ What will be installed
 
 ####graph
 - gimp : Graphics application
+- kolourpaint4
 - dia
 - planner
 
@@ -114,6 +115,7 @@ What will be installed
 - ant : like make for java
 - sublime-text
 - atom (beta)
+- tig
 
 #fix-blightness-problem.sh
 fix the blightness problem
