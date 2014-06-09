@@ -1,21 +1,31 @@
-sh ppa-setting.sh
+#!/bin/bash
 
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
+executeSh() {
+    echo "----------$1 start----------"
+    sudo sh sh/$1.sh > ./log/$1.log 2>&1
+    echo "----------$1 end----------"
+    echo ""
+}
+
+shellList=(basic_setup oh-my-zsh-install application developer macbuntu14-04 fix-blightness)
 
 
-sh sh/basic_setup.sh
-sh sh/oh-my-zsh-install.sh
-sh sh/autojump.sh
-sh sh/sdcv-install.sh
-sh sh/application.sh
-sh sh/developer.sh
-sh sh/macbuntu14-04.sh
+executeSh ppa-setting.sh
 
-sh sh/fix-blightness-problem.sh
+echo "--------update start--------"
+sudo apt-get update -y > ./log/update.log
+sudo apt-get upgrade -y >> ./log/update.log
+sudo apt-get dist-upgrade -y >> ./log/update.log
+echo "--------update end--------"
 
+for sh in ${shellList[@]}
+do
+    executeSh $sh
+done
+
+echo "----------clean temp file----------"
 sudo apt-get -f install &&
 sudo apt-get autoremove &&
 sudo apt-get -y autoclean &&
 sudo apt-get -y clean
+echo "----------finish----------"
