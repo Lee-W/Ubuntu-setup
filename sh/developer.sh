@@ -19,6 +19,9 @@ sudo apt-get install ant -y
 #tig
 sudo apt-get install tig -y
 
+#git
+sudo apt-get install git-flow -y
+
 #--------editor---------
 #sublime 3
 sudo apt-get install sublime-text -y

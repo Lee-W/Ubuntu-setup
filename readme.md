@@ -77,7 +77,7 @@ What will be installed
 - PCMANX
 - filezilla : FTP
 - okular : document viewer
-- skype  
+- skype
 
 Some software that could be installed through software center easier
 - chromium
@@ -116,6 +116,7 @@ What will be installed
 - sublime-text
 - atom (beta)
 - tig
+- git-flow
 
 lib
 - C++ qt
@@ -125,6 +126,9 @@ fix the blightness problem
 
 ###install-all.sh
 execute all the shell script combine with some basic update and clean up
+
+#ISSUE
+- stall when processing macbuntu14-04
 
 
 #AUTHORS
