@@ -50,15 +50,13 @@ What will be installed
 ####media
 - smplayer : video player
 - easytag : modify tags for music
+- Spotify
 - amarok : music player
 - audacity : audio editor
-- Spotify
 
 ####graph
 - gimp : Graphics application
 - kolourpaint4
-- dia
-- planner
 
 ####note
 - tomboy : memo
@@ -81,7 +79,6 @@ What will be installed
 
 Some software that could be installed through software center easier
 - chromium
-- compiz : desktop effects manager
 - gpart
 
 There is also some great applications but not able to install through apt-get directly.  
@@ -90,6 +87,10 @@ There is also some great applications but not able to install through apt-get di
 - [genymotion] ( http://www.genymotion.com/ )
 - [Xmind] ( http://www.xmind.net/download/linux/ )
 - [Rainlendar] ( http://www.rainlendar.net/cms/index.php?option=com_rny_download&Itemid=30 )
+
+####currently not installed
+- dia
+- planner
 
 ###oh-my-zsh-install.sh
 install zsh and oh-my-zsh
@@ -110,22 +111,26 @@ http://note.drx.tw/2013/10/working-on-gnu-linux-15-sdcv.html
 ###developer.sh
 What will be installed
 - Andorid develope enviorment (adt aapt)
-- Andorid studio
 - Python package control (pip for both python 2 and python 3)
-- ant : like make for java
+- python-setuptools
+- virtualenv
 - sublime-text
-- atom (beta)
 - tig
 - git-flow
 
 lib
 - C++ qt
 
-#fix-blightness-problem.sh
+###fix-blightness-problem.sh
 fix the blightness problem
 
-###install-all.sh
+###appearance.sh
+install some appearance package
+
+##install-all.sh
 execute all the shell script combine with some basic update and clean up
+
+
 
 #ISSUE
 - stall when processing macbuntu14-04

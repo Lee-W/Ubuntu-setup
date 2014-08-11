@@ -7,8 +7,8 @@ sudo apt-get install audacity -y
 #graph
 sudo apt-get install gimp-data gimp-plugin-registry gimp-data-extras -y
 sudo apt-get install kolourpaint4 -y
-sudo apt-get install dia -y
-sudo apt-get install planner -y
+# sudo apt-get install dia -y
+# sudo apt-get install planner -y
 
 #other
 sudo apt-get install bleachbit -y
@@ -44,11 +44,6 @@ sudo apt-get install skype -y
 sudo add-apt-repository ppa:diesch/testing -y
 sudo apt-get update
 sudo apt-get install classicmenu-indicator -y
-
-#indicator-stickynotes
-sudo add-apt-repository ppa:umang/indicator-stickynotes -y
-sudo apt-get update
-sudo apt-get install indicator-stickynotes -y
 
 #Spotify
 sudo sh -c 'echo "deb http://repository.spotify.com stable non-free" > /etc/apt/sources.list.d/spotify.list'

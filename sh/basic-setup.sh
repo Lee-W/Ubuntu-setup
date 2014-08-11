@@ -39,4 +39,4 @@ sudo apt-get install flashplugin-installer -y
 
 #tweak
 sudo apt-get install unity-tweak-tool -y
-sudo apt-get install gnome-tweak-tool -y
+# sudo apt-get install gnome-tweak-tool -y

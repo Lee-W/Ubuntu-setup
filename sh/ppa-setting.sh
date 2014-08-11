@@ -1,5 +1,5 @@
-#for VLC
-sudo add-apt-repository -y ppa:videolan/stable-daily
+# # for VLC
+# sudo add-apt-repository -y ppa:videolan/stable-daily
 
 #for GIMP
 sudo add-apt-repository -y ppa:otto-kesselgulasch/gimp
