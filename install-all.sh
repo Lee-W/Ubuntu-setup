@@ -8,7 +8,7 @@ executeSh() {
     echo ""
 }
 
-shellList=(basic_setup oh-my-zsh-install application appearance developer macbuntu14-04 fix-blightness)
+shellList=(basic_setup oh-my-zsh-install application appearance developer macbuntu14-04 fix-blightness install-LiHeiPro)
 
 
 mkdir -p log

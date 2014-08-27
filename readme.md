@@ -127,6 +127,9 @@ fix the blightness problem
 ###appearance.sh
 install some appearance package
 
+###install-LiHeiPro.sh
+install LiHeiPro which is a mac-like font
+
 ##install-all.sh
 execute all the shell script combine with some basic update and clean up
 
