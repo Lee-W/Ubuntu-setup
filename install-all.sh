@@ -3,13 +3,12 @@
 executeSh() {
     echo "----------$1 start----------"
     # sudo sh sh/$1.sh > ./log/$1.log 2>&1
-    sudo sh sh/$1.sh
+    sudo sh sh/$1
     echo "----------$1 end----------"
     echo ""
 }
 
-shellList=(basic_setup oh-my-zsh-install application appearance developer macbuntu14-04 fix-blightness install-LiHeiPro)
-
+shellList=`ls sh`
 
 mkdir -p log
 
