@@ -1,5 +1,4 @@
-cd /tmp
-git clone https://github.com/joelthelion/autojump
-cd autojump
+git clone https://github.com/joelthelion/autojump /tmp
+cd /tmp/autojump
 chmod +x install.py
 ./install.py
